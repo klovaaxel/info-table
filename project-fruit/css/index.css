@@ -18,21 +18,32 @@ ul{
     padding: 0;
     list-style: none;
 }
-.container {
-    height: 75vh;
+.graph, .main-info{
+    height: 70vh;
+}
+.info, .second-info{
+    height: 30vh;
 }
 .graph {
     grid-area: graph;
     width: 50vw;
 }
-.graph svg {
+.graph .container{
+    display: flex;
+    flex-direction: column;
+    margin: 1vh 0;
     height: 100%;
-    width: 200%;
-    margin-bottom: 10%;
+}
+.graph svg{
+    overflow: visible;
+    flex: 1 1;
+    flex-basis: 75vh;
+    min-width: 100vw;
 }
 .graph ul{
-    margin-top: -6em;
-    padding: 0;
+   grid-area: info;
+   flex: 0 0 10%;
+   padding: 3vh;
 }
 .graph ul li{
     color: white;
