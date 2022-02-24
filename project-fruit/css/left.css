@@ -21,7 +21,7 @@ body{
 }
 .info ul{
     border-radius: 2em 0 0 2em;
-    border-left: none;
+    border-right: none;
 }
 @keyframes slide-in {
     0% {

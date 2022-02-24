@@ -164,6 +164,7 @@ ul{
 }
 .main-info{
     justify-content: center;
+    width: 50vw;
 }
 .main-text, .second-text{
     --width: 6vw;
