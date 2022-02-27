@@ -3,7 +3,7 @@
     --secondary-bg-color: rgb(58, 57, 57);
     --bubble-bg-color: #203354;
     --circle-bg-color: radial-gradient(circle at 100px 100px, #5cabff, #000);
-    --maincircle-bg-color: radial-gradient(circle at 100px 100px, #2d9c0b, #000);
+    --maincircle-bg-color: radial-gradient(circle at 100px 100px, #d01dd6, #000);
 }
 body {
     overflow: hidden;
@@ -128,14 +128,14 @@ ul{
     align-items: center;
     justify-content: center;
 }
-.circles li:nth-of-type(1) {
-    background: var(--maincircle-bg-color);  
+.circles li:nth-of-type(1) {  
     animation-delay: 15s;
 }
 .circles li:nth-of-type(2) {
     animation-delay: 16s;  
 }
 .circles li:nth-of-type(3) {
+    background: var(--maincircle-bg-color);
     animation-delay: 17s;
 }
 .circles li:nth-of-type(4) {   
