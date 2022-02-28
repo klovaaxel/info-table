@@ -66,10 +66,21 @@ ul{
     animation-delay: 10s;
     list-style-image: url(../resources/factory.svg);
 }
-#g18, #g1016, #g1203{
+#g18{
     animation: rotate1 3s linear forwards;
     transform-origin: 50.3% 64.1%;
 }
+#g1016{
+    animation: rotate2 3s linear forwards;
+    transform-origin: 50.3% 64.1%;
+}
+#g1203{
+    animation: rotate3 3s linear forwards;
+    transform-origin: 50.3% 64.1%;
+}
+
+
+
 #g18  {
     animation-delay: 4s;
 }
